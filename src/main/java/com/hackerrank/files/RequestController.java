@@ -24,7 +24,7 @@ public class RequestController {
     @PostMapping("/uploader")
     public ResponseEntity uploader(@RequestParam("fileName") String fileName, @RequestParam("file") MultipartFile file) {
     try{ 
-      Path fileTobeSaved=fileRoot.resolve(fileName);
+
       Files.copy(file.getInputStream(), this.fileRoot.resolve(file.getOriginalFilename()));
       return new ResponseEntity<>(HttpStatus.CREATED);
     }catch(Exception e){
