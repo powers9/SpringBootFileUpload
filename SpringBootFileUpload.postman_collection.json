@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "608d49c5-49de-4e8a-b5d6-73b86d8a5937",
+		"name": "SpringBootFileUpload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FileUpload",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "GetFileByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}

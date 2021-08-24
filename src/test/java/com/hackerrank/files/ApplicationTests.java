@@ -44,9 +44,9 @@ class ApplicationTests {
         String fileName = "file_" + getRandom(Integer.MAX_VALUE) + ".txt";
         File uploadedFile = Paths.get(BASE + fileName).toFile();
         byte[] file = new byte[getRandom(99) * 1024];
-
+        System.out.println("Filename:::"+fileName+" "+"Filepath::"+uploadedFile.getAbsolutePath());
         ResponseEntity<Void> response = restTemplate.postForEntity("/uploader", prepareRequest(fileName, file), Void.class);
-
+        System.out.println("create response+++"+response);
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertEquals(true, uploadedFile.exists());
         assertEquals(true, uploadedFile.isFile());
@@ -102,6 +102,7 @@ class ApplicationTests {
     }
 
     private HttpEntity<MultiValueMap<String, Object>> prepareRequest(String fileName, byte[] file) {
+        System.out.println("FileName::"+fileName);
         MultiValueMap<String, String> fileInfo = new LinkedMultiValueMap<>();
         ContentDisposition fileDetails = ContentDisposition
                 .builder("form-data")

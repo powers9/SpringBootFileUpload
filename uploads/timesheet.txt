@@ -1,0 +1,35 @@
+
+Tue 31 ASBA internal discussion 40 mins
+       NSDL Demat dev 5 hrs
+       
+mon 30 call with Aasim for discussion 40 mins
+       call with Sachin regarding zerodha 20 mins
+       
+
+fri 27 Zerodha internal discussion (Aasim,Sachin,Me) on the screens(equity and holding) and data for object mapping 45 mins
+       Zerodha call for technical and business discussion(Vishnu,Aasim,Sachin,Aswini) 1.4 hrs
+       Asba internal discussion (Abhay) 30 mins
+       VPN setup process(have no windows OS on personal laptop) 2 hrs
+       
+       
+Thu 26 Zerodha internal discussion (Sachin,Aasim) for the Zerodh initial redirection after login with access token 40 mins
+       ASBA API analysis 2 hrs
+       Nsdl internal discussion (Aasim) 50 mins
+       
+Wed 25 Holiday
+
+Tue 24 Nsdl POC(SHA256RSA signature creation from the certificate shared by Aasim) 4 hrs
+       POC status and approach discussion(Aasim) 30 mins
+       
+ 
+Mon 23 Nsdl API document analysis 2 hrs
+       Nsdl Concall(Narayan,Raksha,Vijay,Aasim) 2 hrs
+       Nsdl POC(SHA256RSA signature creation from the certificate shared by Aasim) 2.5 hrs
+       
+       
+       
+       Zerodha user login: sh3185   idfc@2020
+       developer login: hitu85@gmail.com
+       
+       
+       
